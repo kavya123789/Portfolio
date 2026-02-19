@@ -6,10 +6,9 @@
 }
 
 body {
-    background: url("images/bg.jpg") no-repeat center center fixed;
+    background-image: url("bg.jpg");
     background-size: cover;
-    color: white;i
-    transition: 0.4s;
+    background-position: center;
 }
 
 header {
@@ -115,3 +114,4 @@ footer {
     background: #ffffff;
     color: black;
 }
+
