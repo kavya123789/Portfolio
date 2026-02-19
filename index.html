@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kavya |  Portfolio</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <h2 class="logo">Kavya</h2>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <button id="darkToggle">🌙</button>
+    </nav>
+</header>
+
+<!-- HERO SECTION -->
+<section id="home" class="hero">
+    <h1>Hi, I'm <span>Kavya</span></h1>
+    <h2><span id="typing"></span></h2>
+    <p>Proactive and collaborative person.</p>
+    <a href="resume.pdf" target="_blank" class="btn">View Resume</a>
+    <a href="resume.pdf" download class="btn">Download Resume</a>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        I am Kavya M pursuing Pre-final year B.TECH Information Technology student 
+        at SNS college of Technology.I did my SSLC in Priyadharshini Matriculation 
+        School which is located in Bikkatty,Ooty and HSC in Mahatma Gandhi Matric 
+        Higher Secondary School at Kagguchi,Kotagiri.
+
+        I am passionate about DataBase Management System and Software Testing.
+    </p>
+</section>
+
+<!-- SKILLS -->
+<section id="Skills">
+    <h2>Skills</h2>
+    <div class="skill-container">
+        <div class="skill-card">C</div>
+        <div class="skill-card">Java</div>
+        <div class="skill-card">Python</div>
+        <div class="skill-card">HTML</div>
+        <div class="skill-card">CSS</div>
+        <div class="skill-card">SQL</div>
+        
+    </div>
+</section>
+
+<!-- TOOLS KNOWN -->
+<section id="Tools">
+    <h2>Tools Known</h2>
+    <div class="skill-container">
+        <div class="skill-card">VS Code</div>
+        <div class="skill-card">Excel</div>
+        <div class="skill-card">MySQL Workbench</div>
+        <div class="skill-card">Canva</div>
+    </div>
+</section>
+
+
+<!-- PROJECTS -->
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="filter-buttons">
+        <button onclick="filterProjects('all')">All</button>
+        <button onclick="filterProjects('web')">Web</button>
+        <button onclick="filterProjects('ai')">AI</button>
+    </div>
+
+    <div class="project-container">
+
+        <div class="project-card web">
+            <h3>Anti - sleep sensor glass</h3>
+            <p>Design Thinking based solution to prevent accidents an hardware project.</p>
+            <a href="#" class="btn-small">Live</a>
+            <a href="#" class="btn-small">GitHub</a>
+        </div>
+
+        <div class="project-card ai">
+            <h3>PC Generative AI </h3>
+            <p>AI helpful for user to build their own PC and it gives the components based on budjet.</p>
+            <a href="#" class="btn-small">Live</a>
+            <a href="#" class="btn-small">GitHub</a>
+        </div>
+
+        <div class="project-card ai">
+            <h3>Smart Recipe Recommendation System </h3>
+            <p>It suggests personalized recipes based on a user's preferences,dietary needs,and available ingredients.</p>
+            <a href="#" class="btn-small">Live</a>
+            <a href="#" class="btn-small">GitHub</a>
+        </div>
+
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <h2>Contact Me</h2>
+    
+    <div class="contact-container">
+        <p><strong>Email:</strong> kavyamanigandan369@gmail.com</p>
+        <p><strong>Location:</strong> Coimbatore, Tamil Nadu, India</p>
+        
+        <p><strong>GitHub:</strong> https://github.com/kavya123789/kavya123789</p>
+        <p><strong>LinkedIn:</strong>https://www.linkedin.com/in/kavya-manigandan </p>
+        <p><strong>LeetCode:</strong> https://leetcode.com/u/kavyamani/</p>
+    </div>
+</section>
+
+
+
+<footer>
+    <p>© 2026 Kavya | Built with ❤️</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
