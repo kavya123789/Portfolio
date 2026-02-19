@@ -6,10 +6,12 @@
 }
 
 body {
-    background-image: url("bg.jpg");
+    margin: 0;
+    padding: 0;
+    background: url("bg.jpg") no-repeat center center fixed;
     background-size: cover;
-    background-position: center;
 }
+
 
 header {
     display: flex;
@@ -114,4 +116,5 @@ footer {
     background: #ffffff;
     color: black;
 }
+
 
